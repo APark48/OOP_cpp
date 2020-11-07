@@ -37,8 +37,12 @@ int divisors(int num){
 
 bool perfectNum(int result,int num){
     // To check if number is perfect
-    if (result == num)
+    if (result == num){
         std::cout << num <<" is a perfect number." << std::endl;
-    else
+        return true;
+    }
+    else{
         std::cout << num <<" is not perfect number." << std::endl;
+        return false;
+    }
 }
