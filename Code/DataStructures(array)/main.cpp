@@ -17,17 +17,20 @@ int main(){
     array();
 
 // 2.
-    // cout << "Function 2: " << endl;
-    // sumArray();
+    cout << "Function 2: " << endl;
+    sumArray();
+    cout << endl;
 
 // 3. 
     cout << "Function 3: " << endl;
     cout << "Rounded average of random values is: ";
     cout << randomAverage() << endl;
+    cout << endl;
 
 // 4.
     cout << "Function 4: " << endl;
     largestNum();
+    cout << endl;
 
 // 5.
     cout << "Function 5: " << endl;
