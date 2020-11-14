@@ -1,7 +1,7 @@
 // Code written by Alfredo Jeong Hyun Park 
 // A01658259
 // Written on 11/13/2020
-// Last modified: 11/14/2020 8:48AM
+// Last modified: 11/14/2020 9:14AM
 // Copyright © 2020. All rights reserved.
 
 #include <iostream>
@@ -63,12 +63,10 @@ El desplegado deberá ser: “El promedio de los valores aleatorios es: 999.99�
     {
         srand(time(NULL));
         int array[50];
-        int sum;
+        int sum = 0;
 
         for (int i=0; i<50; i++){
-            array[i] = (rand()%200)+1;            
-        }
-        for (int i=0; i<50; i++){
+            array[i] = (rand()%200)+1;
             sum += array[i];
         }
 
