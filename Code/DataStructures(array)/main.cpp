@@ -4,7 +4,6 @@
 // Last modified: 11/14/2020 8:48AM
 // Copyright © 2020. All rights reserved.
 
-
 #include <iostream>
 #include <time.h>
 #include "DataStructures.h"
