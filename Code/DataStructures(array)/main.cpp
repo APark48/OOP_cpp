@@ -1,6 +1,9 @@
-// Code written by Alfredo Jeong Hyun Park 
+// Code written by Alfredo Jeong Hyun Park
 // A01658259
+// Written on 11/13/2000
+// Last modified: 11/13/2000 6:02PM
 // Copyright © 2020. All rights reserved.
+
 
 #include <iostream>
 #include <time.h>
