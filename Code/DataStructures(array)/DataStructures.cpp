@@ -1,7 +1,7 @@
 // Code written by Alfredo Jeong Hyun Park 
 // A01658259
 // Written on 11/13/2020
-// Last modified: 11/13/2020 6:02PM
+// Last modified: 11/14/2020 8:48AM
 // Copyright © 2020. All rights reserved.
 
 #include <iostream>
@@ -97,6 +97,8 @@ primer elemento del arreglo y de manera iterativa recorre el arreglo y actualiza
         }
         
         std::cout << "Largest number in array is " << maxNum << " in position " << maxPosition << std::endl;
+
+        return;
     }
 
 
@@ -113,5 +115,7 @@ Por definición, una variable tipo cadena o string es un arreglo de caracteres. 
             size++;
         }
         std::cout << "Size of phrase is: " << size << std::endl;
+
+        return;
     }
 }

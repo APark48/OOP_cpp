@@ -1,7 +1,7 @@
 // Code written by Alfredo Jeong Hyun Park
 // A01658259
 // Written on 11/13/2020
-// Last modified: 11/13/2020 6:02PM
+// Last modified: 11/14/2020 8:48AM
 // Copyright © 2020. All rights reserved.
 
 
@@ -12,7 +12,7 @@
 using namespace std;
 using namespace datastructures;
 
-// Data Structures exercises
+// Data Structures exercises (Array)
 
 int main(){
 // 1. 
