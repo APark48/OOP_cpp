@@ -17,13 +17,15 @@ public:
         model = 0;
         maxSpeed = 0;
         motor = "Gasoline";
+        horsePower = 0;
     }
-    Gasoline(std::string brand, std::string name, int model, int maxSpeed){
+    Gasoline(std::string brand, std::string name, int model, int maxSpeed, int horsePower){
         this->brand = brand;
         this->name = name;
         this->model = model;
         this->maxSpeed = maxSpeed;
         motor = "Gasoline";
+        this->horsePower = horsePower;
     }
     ~Gasoline(){}
 };

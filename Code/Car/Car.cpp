@@ -15,5 +15,6 @@ void Car::print()
     std::cout << "Model: " << model << std::endl;
     std::cout << "Max Speed: " << maxSpeed << std::endl;
     std::cout << "Motor: " << motor << std::endl;
+    std::cout << "Horse Power: " << horsePower << std::endl;
     std::cout << "-------------------------------" << std::endl;
 }

@@ -9,10 +9,10 @@
 using namespace std;
 
 int main(){
-    Electric car1("Toyota", "Prius", 2020, 70);
+    Electric car1("Toyota", "Prius", 2020, 70, 96);
     car1.print();
 
-    Gasoline car2("Honda", "Civic", 2020, 200);
+    Gasoline car2("Honda", "Civic", 2020, 200, 158);
     car2.print();
 
     return 1;

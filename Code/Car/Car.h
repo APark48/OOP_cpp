@@ -15,6 +15,7 @@ protected:
     int model;
     int maxSpeed;
     std::string motor;
+    int horsePower;
 public:
     //Constructors and destructor
     Car(){
@@ -23,6 +24,7 @@ public:
         model = 0;
         maxSpeed = 0;
         motor = " ";
+        horsePower = 0;
     }
     Car(std::string brand, std::string name, int model, int maxSpeed){
         this->brand = brand;
@@ -30,6 +32,7 @@ public:
         this->model = model;
         this->maxSpeed = maxSpeed;
         motor = " ";
+        horsePower = 0;
     }
     ~Car(){}
 
@@ -39,6 +42,7 @@ public:
     int getModel(){return model;}
     int getMaxSpeed(){return maxSpeed;}
     std::string getMotor(){return motor;}
+    int getHorsePower(){return horsePower;}
 
     //Setters
     void setBrand(std::string newBrand){
@@ -52,6 +56,9 @@ public:
     }
     void setMaxSpeed(int newMaxSpeed){
         maxSpeed = newMaxSpeed;
+    }
+    void setHorsePower(int newHorsePower){
+        horsePower = newHorsePower;
     }
 
     //Function
