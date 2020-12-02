@@ -1,11 +1,12 @@
 // Code written by Alfredo Jeong Hyun Park
 // A01658259
 // Written on 12/2/2020
-// Last modified: 12/2/2020 9:55AM
+// Last modified: 12/2/2020 10:14AM
 // Copyright © 2020. All rights reserved.
 
 #pragma once
 #include <string>
+#include "Motor.h"
 
 class Car
 {
@@ -14,8 +15,7 @@ protected:
     std::string name;
     int model;
     int maxSpeed;
-    std::string motor;
-    int horsePower;
+    Motor m;
 public:
     //Constructors and destructor
     Car(){
@@ -23,16 +23,12 @@ public:
         name = " ";
         model = 0;
         maxSpeed = 0;
-        motor = " ";
-        horsePower = 0;
     }
     Car(std::string brand, std::string name, int model, int maxSpeed){
         this->brand = brand;
         this->name = name;
         this->model = model;
         this->maxSpeed = maxSpeed;
-        motor = " ";
-        horsePower = 0;
     }
     ~Car(){}
 
@@ -41,8 +37,6 @@ public:
     std::string getName(){return name;}
     int getModel(){return model;}
     int getMaxSpeed(){return maxSpeed;}
-    std::string getMotor(){return motor;}
-    int getHorsePower(){return horsePower;}
 
     //Setters
     void setBrand(std::string newBrand){
@@ -56,9 +50,6 @@ public:
     }
     void setMaxSpeed(int newMaxSpeed){
         maxSpeed = newMaxSpeed;
-    }
-    void setHorsePower(int newHorsePower){
-        horsePower = newHorsePower;
     }
 
     //Function

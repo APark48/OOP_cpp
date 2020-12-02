@@ -1,7 +1,7 @@
 // Code written by Alfredo Jeong Hyun Park
 // A01658259
 // Written on 12/2/2020
-// Last modified: 12/2/2020 9:55AM
+// Last modified: 12/2/2020 10:14AM
 // Copyright © 2020. All rights reserved.
 
 #include "Electric.h"
