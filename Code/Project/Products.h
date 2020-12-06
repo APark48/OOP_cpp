@@ -1,7 +1,7 @@
 // Code written by Alfredo Jeong Hyun Park 
 // A01658259
 // Written on 12/5/2020
-// Last modified: 12/5/2020 9:14AM
+// Last modified: 12/6/2020
 // Copyright © 2020. All rights reserved.
 
 #pragma once
@@ -14,7 +14,6 @@ private:
     int price;
     std::string description;
     bool inStock;
-    int stock;
 public:
     //Constructors and destructor
     Products(){
@@ -22,13 +21,11 @@ public:
         price = 0;
         description = " ";
         inStock = false;
-        stock = 0;
     }
-    Products(std::string productName, int price, std::string description, int stock){
+    Products(std::string productName, int price, std::string description){
         this->productName = productName;
         this->price = price;
         this->description = description;
-        this->stock = stock;
         inStock = true;
     }
     ~Products(){}
@@ -38,7 +35,6 @@ public:
     int getPrice(){return price;}
     std::string getDescription(){return description;}
     bool getInStock(){return inStock;}
-    int getStock(){return stock;}
 
     //Setters
     void setProductName(std::string newProductName){
@@ -52,8 +48,5 @@ public:
     }
     void setInStock(bool newInStock){
         inStock = newInStock;
-    }
-    void setStock(int newStock){
-        stock = newStock;
     }
 };

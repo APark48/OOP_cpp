@@ -1,7 +1,7 @@
 // Code written by Alfredo Jeong Hyun Park 
 // A01658259
 // Written on 12/5/2020
-// Last modified: 12/5/2020 9:14AM
+// Last modified: 12/6/2020
 // Copyright © 2020. All rights reserved.
 
 #pragma once
@@ -20,7 +20,10 @@ public:
 
     //Getters
     Products getProduct(int position){
-        return catalog.at(position).getProductName();
+        return catalog.at(position);
+    }
+    int getSize(){
+        return catalog.size();
     }
 
     //Functions
