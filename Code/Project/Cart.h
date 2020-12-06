@@ -13,5 +13,12 @@ class Cart
 private:
     std::vector<Products> cart;
 public:
+    //Constructor and destructor
+    Cart(){}
+    ~Cart(){}
 
+    //Functions
+    void addProduct(Products product); //Function that takes a Products object @ parameter. Adds a product to the cart.
+    float totalPrice(); //Function that returns total price.
+    void printProducts(); //Function that prints all products in cart.
 };

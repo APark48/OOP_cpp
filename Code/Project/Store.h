@@ -5,13 +5,22 @@
 // Copyright © 2020. All rights reserved.
 
 #pragma once
-#include <string>
+#include "Cart.h"
+#include "Catalog.h"
+#include "Products.h"
 
 class Store
 {
 private:
-
+    Cart cart;
+    Catalog catalog;
 public:
+    //Constructor and Destructor
+    Store(){}
+    ~Store(){}
 
+    //Functions
+    void showCatalog();//Function that shows all products in store.
+    void purchase(); //Function that purchases a product in the cart.
 };
 
