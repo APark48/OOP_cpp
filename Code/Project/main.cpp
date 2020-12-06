@@ -17,6 +17,9 @@ int main(){
     Products iris("Iris", 15, "Iris is a genus of 260–300 species of flowering plants with showy flowers. It takes its name from the Greek word for a rainbow, which is also the name for the Greek goddess of the rainbow, Iris.");
     Products helianthus("Helianthus", 18, "Helianthus is a genus comprising about 70 species of annual and perennial flowering plants in the daisy family Asteraceae.");
     Products orchidaceae("Orchidaceae", 20, "The Orchidaceae are a diverse and widespread family of flowering plants, with blooms that are often colourful and fragrant, commonly known as the orchid family.");
+    Products cannabis("Cannabis", 30, "Cannabis is a genus of flowering plants in the family Cannabaceae.");
+    Products carnation("Dianthus caryophyllus", 15, "Dianthus caryophyllus, commonly known as the carnation or clove pink, is a species of Dianthus. It is probably native to the Mediterranean region but its exact range is unknown due to extensive cultivation for the last 2,000 years.");
+    Products hydrangea("Hydrangea", 15, "Hydrangea, common names hydrangea or hortensia, is a genus of 70–75 species of flowering plants native to Asia and the Americas.");
 
     //Adding into catalog
     Catalog catalog;
@@ -27,6 +30,9 @@ int main(){
     catalog.addToCatalog(iris);
     catalog.addToCatalog(helianthus);
     catalog.addToCatalog(orchidaceae);
+    catalog.addToCatalog(cannabis);
+    catalog.addToCatalog(carnation);
+    catalog.addToCatalog(hydrangea);
 
     //Creating cart
     Cart cart;
