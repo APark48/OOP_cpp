@@ -9,7 +9,7 @@
 using namespace std;
 
 int main(){
-    //Creating 7 products
+    //Creating 10 products
     Products rose("Rose", 12, "A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.");
     Products lilium("Lilium", 15, "Lilium is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers.");
     Products gerbera("Gerbera", 12, "Gerbera is a genus of plants in the Asteraceae (daisy family).");
