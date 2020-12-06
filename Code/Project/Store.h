@@ -4,9 +4,14 @@
 // Last modified: 12/5/2020 9:14AM
 // Copyright © 2020. All rights reserved.
 
-int main(){
-    
+#pragma once
+#include <string>
 
-    return 1;
-}
+class Store
+{
+private:
+
+public:
+
+};
 

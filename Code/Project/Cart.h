@@ -4,9 +4,14 @@
 // Last modified: 12/5/2020 9:14AM
 // Copyright © 2020. All rights reserved.
 
-int main(){
-    
+#pragma once
+#include "Products.h"
+#include <vector>
 
-    return 1;
-}
+class Cart
+{
+private:
+    std::vector<Products> cart;
+public:
 
+};
